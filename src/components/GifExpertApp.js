@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import AddCategory from './AddCategory';
+import { AddCategory } from './AddCategory';
 import GifGrid from './GifGrid';
 
 const GifExpertApp = () => {
-	const [categories, setCategories] = useState(['One push']);
+	const [categories, setCategories] = useState(['One punch']);
 
   return (
     <>

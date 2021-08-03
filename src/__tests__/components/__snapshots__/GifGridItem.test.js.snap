@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in <GifGridItem /> Must show <GifGridItem /> component correctly 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="One Punch"
+    src="https://www.google.com"
+  />
+  <p>
+    One Punch
+  </p>
+</div>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on <GifGrid /> Must show <GifGrid /> correctly 1`] = `
+<div>
+  <h3>
+    Naruto
+  </h3>
+  <p>
+    loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</div>
+`;
+
+exports[`Testing on <GifGrid /> Must show data when the data is loaded 1`] = `
+<div>
+  <h3>
+    Naruto
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="a1"
+      title="naruto 1"
+      url="http://www.google.com"
+      username="username1"
+    />
+    <GifGridItem
+      id="a2"
+      title="naruto 2"
+      url="http://www.google.com"
+      username="username2"
+    />
+    <GifGridItem
+      id="a3"
+      title="naruto 3"
+      url="http://www.google.com"
+      username="username3"
+    />
+    <GifGridItem
+      id="a4"
+      title="naruto 4"
+      url="http://www.google.com"
+      username="username4"
+    />
+    <GifGridItem
+      id="a5"
+      title="naruto 5"
+      url="http://www.google.com"
+      username="username5"
+    />
+  </div>
+</div>
+`;
